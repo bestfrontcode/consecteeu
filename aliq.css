@@ -1,0 +1,17 @@
+.shooting_star {
+  /* Example styles for the shooting_star class */
+  animation: shooting 2s infinite;
+  background-color: yellow;
+  width: 5px;
+  height: 20px;
+  /* Other styles here */
+}
+
+@keyframes shooting {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(200px);
+  }
+}
